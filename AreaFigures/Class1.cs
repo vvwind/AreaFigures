@@ -23,11 +23,12 @@ namespace AreaFigures
 
             if ((Math.Pow(sides_array[0], 2) + Math.Pow(sides_array[1], 2)) == (Math.Pow(sides_array[2], 2)))
             {
-                return (sides_array[0] * sides_array[1]) / 2;
+                Console.WriteLine("This is a Right Triangle");
+                return Math.Round((sides_array[0] * sides_array[1]) / 2);
             }
             else
             {
-                return Math.Sqrt(gerone * (gerone - Side_A) * (gerone - Side_B) * (gerone - Side_C));
+                return Math.Round(Math.Sqrt(gerone * (gerone - Side_A) * (gerone - Side_B) * (gerone - Side_C)));
             }
 
         }
@@ -41,7 +42,7 @@ namespace AreaFigures
         public override double Area()
         {
 
-            return (Math.Pow(Radius, 2) * Math.PI);
+            return Math.Round((Math.Pow(Radius, 2) * Math.PI));
         }
     }
 }
