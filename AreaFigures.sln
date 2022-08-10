@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaFigures", "AreaFigures\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaFiguresTest", "AreaFiguresTest\AreaFiguresTest.csproj", "{B01F0312-D533-469E-A241-B27B9B2BE546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL_DATA", "SQL_DATA\SQL_DATA.csproj", "{DBA68CFF-AC12-4AB7-B28D-AC274471584E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B01F0312-D533-469E-A241-B27B9B2BE546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01F0312-D533-469E-A241-B27B9B2BE546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B01F0312-D533-469E-A241-B27B9B2BE546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA68CFF-AC12-4AB7-B28D-AC274471584E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA68CFF-AC12-4AB7-B28D-AC274471584E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA68CFF-AC12-4AB7-B28D-AC274471584E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA68CFF-AC12-4AB7-B28D-AC274471584E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
